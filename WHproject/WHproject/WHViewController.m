@@ -6,13 +6,13 @@
 //  Copyright © 2018年 静. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WHViewController.h"
 
-@interface ViewController ()
+@interface WHViewController ()
 
 @end
 
-@implementation ViewController
+@implementation WHViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

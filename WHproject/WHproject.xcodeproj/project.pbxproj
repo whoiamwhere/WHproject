@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F1239052101BFFD00CE19A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1239042101BFFD00CE19A8 /* AppDelegate.m */; };
-		3F1239082101BFFD00CE19A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1239072101BFFD00CE19A8 /* ViewController.m */; };
+		3F1239082101BFFD00CE19A8 /* WHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1239072101BFFD00CE19A8 /* WHViewController.m */; };
 		3F12390B2101BFFD00CE19A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1239092101BFFD00CE19A8 /* Main.storyboard */; };
 		3F12390E2101BFFD00CE19A8 /* WHproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F12390C2101BFFD00CE19A8 /* WHproject.xcdatamodeld */; };
 		3F1239102101BFFE00CE19A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F12390F2101BFFE00CE19A8 /* Assets.xcassets */; };
@@ -16,6 +16,7 @@
 		3F1239162101BFFE00CE19A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1239152101BFFE00CE19A8 /* main.m */; };
 		3F1239202101BFFE00CE19A8 /* WHprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F12391F2101BFFE00CE19A8 /* WHprojectTests.m */; };
 		3F12392B2101BFFE00CE19A8 /* WHprojectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F12392A2101BFFE00CE19A8 /* WHprojectUITests.m */; };
+		3F1239542101C3B700CE19A8 /* WHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1239532101C3B700CE19A8 /* WHNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,8 @@
 		3F1239002101BFFD00CE19A8 /* WHproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1239032101BFFD00CE19A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F1239042101BFFD00CE19A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F1239062101BFFD00CE19A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F1239072101BFFD00CE19A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F1239062101BFFD00CE19A8 /* WHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHViewController.h; sourceTree = "<group>"; };
+		3F1239072101BFFD00CE19A8 /* WHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHViewController.m; sourceTree = "<group>"; };
 		3F12390A2101BFFD00CE19A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F12390D2101BFFD00CE19A8 /* WHproject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WHproject.xcdatamodel; sourceTree = "<group>"; };
 		3F12390F2101BFFE00CE19A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,8 @@
 		3F1239262101BFFE00CE19A8 /* WHprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F12392A2101BFFE00CE19A8 /* WHprojectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHprojectUITests.m; sourceTree = "<group>"; };
 		3F12392C2101BFFE00CE19A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1239522101C3B700CE19A8 /* WHNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHNavigationViewController.h; sourceTree = "<group>"; };
+		3F1239532101C3B700CE19A8 /* WHNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +108,10 @@
 			children = (
 				3F1239032101BFFD00CE19A8 /* AppDelegate.h */,
 				3F1239042101BFFD00CE19A8 /* AppDelegate.m */,
-				3F1239062101BFFD00CE19A8 /* ViewController.h */,
-				3F1239072101BFFD00CE19A8 /* ViewController.m */,
+				3F1239062101BFFD00CE19A8 /* WHViewController.h */,
+				3F1239072101BFFD00CE19A8 /* WHViewController.m */,
+				3F1239522101C3B700CE19A8 /* WHNavigationViewController.h */,
+				3F1239532101C3B700CE19A8 /* WHNavigationViewController.m */,
 				3F1239092101BFFD00CE19A8 /* Main.storyboard */,
 				3F12390F2101BFFE00CE19A8 /* Assets.xcassets */,
 				3F1239112101BFFE00CE19A8 /* LaunchScreen.storyboard */,
@@ -265,7 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1239082101BFFD00CE19A8 /* ViewController.m in Sources */,
+				3F1239082101BFFD00CE19A8 /* WHViewController.m in Sources */,
+				3F1239542101C3B700CE19A8 /* WHNavigationViewController.m in Sources */,
 				3F1239052101BFFD00CE19A8 /* AppDelegate.m in Sources */,
 				3F1239162101BFFE00CE19A8 /* main.m in Sources */,
 				3F12390E2101BFFD00CE19A8 /* WHproject.xcdatamodeld in Sources */,
@@ -437,7 +443,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WHproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,6 +452,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = storyBoardTest.WHproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -453,7 +461,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WHproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = storyBoardTest.WHproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
